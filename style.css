@@ -47,7 +47,7 @@
   }
 
   body {background-color: aqua;}
-        h1 {color: greenyellow;}
+        h1 {color: rgb(0, 0, 0);}
         p {color: black;}
 
 a.blank{color: white; text-decoration: none;}

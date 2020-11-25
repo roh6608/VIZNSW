@@ -75,7 +75,7 @@
     background-color: red;
     box-shadow: 0 5px 0 darkred;
     color: white;
-    min-width: 400px;
+    min-width: 50%;
     padding: 1em 1.5em;
     position: relative;
     text-decoration: none;
@@ -92,36 +92,3 @@ img.fit {
   height: auto;
 }
 
-.sidenav {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 200px;
-  left: 10px;
-  background: #333;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: red;
-}
-
-.main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}

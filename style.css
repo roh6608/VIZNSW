@@ -79,6 +79,7 @@ a.btn {
     display: inline-block;
     padding: 1em 1.5em;
     position: relative;
+    font-family: Verdana;
     text-decoration: none;
     text-transform: uppercase;
 }

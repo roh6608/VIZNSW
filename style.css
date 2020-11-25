@@ -75,7 +75,7 @@ a.btn {
     background-color: red;
     box-shadow: 0 5px 0 darkred;
     color: white;
-    min-width: 160px;
+    min-width: 110px;
     display: inline-block;
     padding: 1em 1.5em;
     position: relative;

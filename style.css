@@ -71,21 +71,23 @@
         font-family: Verdana;
   }
 
-  a.btn {
+a.btn {
     background-color: red;
     box-shadow: 0 5px 0 darkred;
     color: white;
-    min-width: 50%;
+    min-width: 160px;
+    display: inline-block;
     padding: 1em 1.5em;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-  }
+}
   
-  a.btn:hover {
+a.btn:hover {
     background-color: #ce0606;
     cursor: pointer;
-  }
+}
+
 
 img.fit {
   max-width: 100%;

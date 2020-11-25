@@ -70,3 +70,25 @@
   body {background-color: aqua;
         font-family: Verdana;
   }
+
+  a.btn {
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  a.btn:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+  }
+
+img.fit {
+  max-width: 100%;
+  height: auto;
+  width: 1.75*auto;
+
+}

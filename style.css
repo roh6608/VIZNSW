@@ -2,13 +2,13 @@
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: Verdana;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -23,7 +23,7 @@
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -67,4 +67,6 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-  body {background-color: aqua;}
+  body {background-color: aqua;
+        font-family: Verdana;
+  }

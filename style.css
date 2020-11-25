@@ -87,8 +87,6 @@
   }
 
 img.fit {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
-  width: 1.75*auto;
-
 }

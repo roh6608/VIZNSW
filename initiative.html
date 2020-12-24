@@ -5,7 +5,17 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, intial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="style.css"/>
-        <title>Initiative</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N4R1DD4Y2W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N4R1DD4Y2W');
+</script>
+        <title>The Initiative</title>
+
     </head>
 
     <body>
@@ -39,7 +49,28 @@
 
     
 
-    <h2>Initiative</h2>
+    <h2>The Initiative</h2>
+
+    <h3>Why?</h3>
+    Initially the forecasting model was taken up as personal project to learn more about how the visibility of the water was affected by various factors. It was then further
+    developed to form this website so it could be shared with others.
+
+    <h3>How?</h3>
+    The forecasting model is a machine learning model built within the keras framework in R. It takes into account the; wind magnitude, swell height, swell period, water temperature,
+    rainfall in the past week and days since the last rainfall. Other factors will be taken into account that will hopefully increase the accuracy of the predictions in the near 
+    future.
+
+
+    <h3>Does it Work?</h3>
+    The performance of the forecasting model can be seen in the below plot, where the predicted value is plotted against the actual value. A correct prediction lies on the blue line.
+    The fill of the points indicates the absolute error of the prediction in metres.
+    <br><br>
+    <img 
+    class = "fit"
+    width= "50%"
+    src="perfplot.svg" 
+    alt="Geospatial plot of visibility" 
+    />
     
 
     

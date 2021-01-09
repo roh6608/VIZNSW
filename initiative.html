@@ -1,87 +1,102 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, intial-scale=1"/>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N4R1DD4Y2W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<head>
+		<title>The Iniative</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
 
-  gtag('config', 'G-N4R1DD4Y2W');
-</script>
-        <title>The Initiative</title>
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">About</a>
+								<ul>
+									<li><a href="initiative.html">The Initiative</a></li>
+									<li><a href="faqs.html">FAQs</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Forecast</a>
+								<ul>
+									<li><a href="AVC.html">Avoca Beach</a></li>
+									<li><a href="BRI.html">Bare Island</a></li>
+									<li><a href="BRO.html">Broughton Island</a></li>
+									<li><a href="CTB.html">Cabbage Tree Bay</a></li>
+									<li><a href="CHB.html">Catherine Hill Bay</a></li>
+									<li><a href="KNL.html">Kurnell</a></li>
+									<li><a href="NTB.html">Newcastle Beach</a></li>
+									<li><a href="SHB.html">Shelly Beach</a></li>
+									<li><a href="SLB.html">Shoal Bay</a></li>
+									<li><a href="SWH.html">Swansea Heads</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
 
-    </head>
+				</div>
 
-    <body>
-      <div class="navbar">
-          <a href="index.html">Home</a>
-          <div class="dropdown">
-            <button class="dropbtn">About
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="initiative.html">The Initiative</a>
-              <a href="faqs.html">FAQs</a>
-              <a href="https://www.notion.so/d6baf9425fc24eb891b964d8b647fba8?v=bdaa2a1be09647d0a165d9b82e79a1e2" 
-              target="_blank">Timeline</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn">Forecast
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="AVC.html">Avoca Beach</a>
-              <a href="BRI.html">Bare Island</a>
-              <a href="BRO.html">Broughton Island</a>
-              <a href="CTB.html">Cabbage Tree Bay</a>
-              <a href="CHB.html">Catherine Hill Bay</a>
-              <a href="KNL.html">Kurnell</a>
-              <a href="NTB.html">Newcastle Beach</a>
-              <a href="SHB.html">Shelly Beach</a>
-              <a href="SLB.html">Shoal Bay</a>
-              <a href="SWH.html">Swansea Heads</a>
-            </div>
-          </div>
-          <a href="contact.html">Contact</a>
-        </div>
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div id="content">
 
-    
+							<!-- Content -->
 
-    <h2>The Initiative</h2>
+								<article>
 
-    <h3>Why?</h3>
-    Initially the forecasting model was taken up as personal project to learn more about how the visibility of the water was affected by various factors. It was then further
-    developed to form this website so it could be shared with others.
+									<span class="image featured"><img src="images/init.svg" alt="" /></span>
 
-    <h3>How?</h3>
-    The forecasting model is a machine learning model built within the keras framework in R. It takes into account the; wind magnitude, swell height, swell period, water temperature,
-    rainfall in the past week and days since the last rainfall. Other factors will be taken into account that will hopefully increase the accuracy of the predictions in the near 
-    future.
+									<h3>Why?</h3>
+									<p>Initially the forecasting model was taken up as personal project to learn more about how the visibility of the water was affected by 
+										various factors. It was then further developed to form this website so it could be shared with others.</p>
 
+									<h3>How?</h3>
+									<p>The forecasting model is a machine learning model built within the keras framework in R. It takes into account the; wind magnitude, 
+										swell height, swell period, water temperature, rainfall in the past week and days since the last rainfall. Other factors will be 
+										taken into account that will hopefully increase the accuracy of the predictions in the near future.</p>
 
-    <h3>Does it Work?</h3>
-    The performance of the forecasting model can be seen in the below plot, where the predicted value is plotted against the actual value. A correct prediction lies on the blue line.
-    The fill of the points indicates the absolute error of the prediction in metres.
-    <br><br>
-    <img 
-    class = "fit"
-    width= "50%"
-    src="perfplot.svg" 
-    alt="Perfomance Plot" 
-    />
-    
+									<h3>Does it Work?</h3>
+									<p>The performance of the forecasting model can be seen in the below plot, where the predicted value is plotted against the actual value. 
+										A correct prediction lies on the blue line. The fill of the points indicates the absolute error of the prediction in metres.
+									</p>
+									<img class="fit" src= "images/perfplot.svg">
+								</article>
 
-    
-    <br>
-    <br>
-    &#169; Rohan St Hill 2020
-    </body> 
+						</div>
+					</div>
+				</section>
 
+			<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<div class="copyright">
+						<ul class="menu">
+							<li>&copy; Rohan St Hill 2020</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
